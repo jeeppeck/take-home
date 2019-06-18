@@ -1,0 +1,36 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E0F4f4;
+}
+
+.counter-body {
+    width: 600px;
+    height: 225px;
+    background: #2B3636;
+    display: flex;
+    flex-direction: row;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+#col1 {
+    align-items: flex-start;
+}
+
+#col2 {
+    align-items: center;
+}
+
+#col3 {
+    align-items: flex-end;
+}
